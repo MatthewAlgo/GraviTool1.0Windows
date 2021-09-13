@@ -1,0 +1,10 @@
+^C:\USERS\MATTHEWALGO\DESKTOP\PROJECTSRECREATION\STILLTESTING\GRAVITOOL1.0WINDOWS\BUILD\CMAKEFILES\ADC0CC98444D9FBC89978A9894ADBE3B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MatthewAlgo/Desktop/ProjectsRecreation/StillTesting/GraviTool1.0Windows -BC:/Users/MatthewAlgo/Desktop/ProjectsRecreation/StillTesting/GraviTool1.0Windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/MatthewAlgo/Desktop/ProjectsRecreation/StillTesting/GraviTool1.0Windows/build/GraviTool1.0Windows.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

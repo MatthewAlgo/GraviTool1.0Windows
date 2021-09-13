@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MatthewAlgo\Desktop\ProjectsRecreation\StillTesting\GraviTool1.0Windows\build\CMakeFiles\adc0cc98444d9fbc89978a9894adbe3b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A64BEC1C-2C9D-38C1-9552-42C05859E92D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
